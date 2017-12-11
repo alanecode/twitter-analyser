@@ -1,0 +1,26 @@
+{
+  "name": "twitter-analyser",
+  "version": "1.0.0",
+  "description": "Conducts network analysis based on interactions between users using a particular hashtag",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanecode/twitter-analyser.git"
+  },
+  "keywords": [
+    "twitter",
+    "networks"
+  ],
+  "author": "Andrew Lane",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alanecode/twitter-analyser/issues"
+  },
+  "homepage": "https://github.com/alanecode/twitter-analyser#readme",
+  "dependencies": {
+    "twitter": "^1.7.1"
+  }
+}
