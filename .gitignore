@@ -1,1 +1,6 @@
+# dependencies which can be reproduced from package.json
 node_modules
+
+# environemnt variables containing private data
+env.sh
+myjsonfile.json
