@@ -1,8 +1,5 @@
-/*
-Config file for twitter trawling. Specify which patterns to look for to
-identify leaders and followers, and any other patterns to match.
-*/
-{
+{ "_comment": "Config file for twitter trawling. Specify which patterns to look for to identify leaders and followers, and any other patterns to match.",
+
   "leaders": [
     {"patterns": ["#blah", "Dr Frankenstein"], "category": "cat1"},
     {"patterns": ["#alsoblah", "Monster"], "category": "cat2"}
@@ -12,6 +9,7 @@ identify leaders and followers, and any other patterns to match.
     {"patterns": ["#blah"]},
     {"patterns": ["#blah"]}
 
-  ]
+  ],
 
+  "other-patterns" : ["#specialblah"]
 }
